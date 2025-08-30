@@ -8,7 +8,7 @@ const Landing = () => {
       style={{ backgroundImage: `url(${bgImg})` }}
     >
       <h1 className="text-white text-[3rem] sm:text-[4rem] lg:text-[7rem] text-center font-bold  pt-10">
-        <span className="font-light">Bank</span> YOURSELF
+        <span className="font-light">Bank</span> YOURSELF 
       </h1>
       <p className="text-white text-[16px] sm:text-[20px] text-center mt-20 lg:mt-24">
         Instant and reliable payments for businesses and individuals, built on
