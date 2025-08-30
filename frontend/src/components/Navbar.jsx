@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useTransition } from "react";
 
 const Navbar = () => {
   const [visable, setVisable] = useState(false);
+ 
   return (
     <div className="flex  justify-between items-center gap-6 py-7 px-6 bg-black">
       <div className=" text-white flex gap-3">
@@ -93,19 +94,70 @@ const Navbar = () => {
         }`}
       >
         <div className="flex flex-col text-gray-600">
-          <div
-            onClick={() => setVisable(!visable)}
-            className="flex flex-col   gap-4 px-12 py-18 bg-black text-white"
-          >
+          <div className="flex flex-col   gap-4 px-12 py-18 bg-black text-white">
             <div className="h-[2px] w-full bg-gray-500 mb-2"></div>
-            <p>FOR BUSINESS</p>
-            <p>FOR INDIVIDUALS</p>
-            <p>RESOURCES</p>
+
+            
+            <div className="group relative text-white">
+              <p className="font-bold cursor-pointer">
+                FOR BUSINESSES{" "}
+               </p>
+              <div className="group-hover:block hidden   dropdown-menu top-0 pt-4">
+                <div className="flex flex-col  gap-2 font-bold text-[14px] py-2 px-3  text-white  ">
+                  <p className="cursor-pointer hover:text-gray-50[#E4E3E4] p-2 hover:bg-[#232E4D] rounded-lg">
+                    BUSINESS FEATURE
+                  </p>
+                  <p className="cursor-pointer hover:text-[#E4E3E4] p-2 hover:bg-[#232E4D]  rounded-lg">
+                    MERCHANT TOOLS{" "}
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="group relative text-white">
+              <p className="  cursor-pointer">
+                FOR INDIVIDUALS{" "}
+               </p>
+              <div className="group-hover:block hidden   dropdown-menu top-0 pt-4">
+                <div className="flex flex-col  gap-2 font-bold text-[14px] py-2 px-3   text-white rounded-md">
+                  <p className="cursor-pointer hover:text-[#E4E3E4] p-2 hover:bg-[#232E4D] rounded-lg">
+                    Personal Wallet
+                  </p>
+                  <p className="cursor-pointer hover:text-[#E4E3E4] p-2 hover:bg-[#232E4D]  rounded-lg">
+                    Prepaid Cards{" "}
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="group relative text-white">
+              <p className="  cursor-pointer">
+                RESOURCES
+           
+              </p>
+              <div className="group-hover:block hidden   dropdown-menu top-0 pt-4">
+                <div className="flex flex-col  gap-2 font-bold text-[14px] py-2 px-3    text-white rounded-md">
+                  <p className="cursor-pointer hover:text-[#E4E3E4] p-2 hover:bg-[#232E4D] rounded-lg">
+                    Integration Guide
+                  </p>
+                  <p className="cursor-pointer hover:text-[#E4E3E4] p-2 hover:bg-[#232E4D] rounded-lg">
+                    Integration Options
+                  </p>
+                  <p className="cursor-pointer hover:text-[#E4E3E4] p-2 hover:bg-[#232E4D] rounded-lg">
+                    API Documentation
+                  </p>
+                  <p className="cursor-pointer hover:text-[#E4E3E4] p-2 hover:bg-[#232E4D]  rounded-lg">
+                    FAQ
+                  </p>
+                </div>
+              </div>
+            </div>
+             
             <p>COINS</p>
             <p>SUPPORT</p>
             <div className="flex flex-col items-center py-5 gap-2 bg-[#1F3148] rounded-2xl ">
-                <p className="text-[14px]">Bank Yourself today.</p>
-                <button className="text-white bg-[#1255D1] px-5 py-2 rounded-full">Sign Up</button>
+              <p className="text-[14px]">Bank Yourself today.</p>
+              <button className="text-white bg-[#1255D1] px-5 py-2 rounded-full">
+                Sign Up
+              </button>
             </div>
           </div>
         </div>
