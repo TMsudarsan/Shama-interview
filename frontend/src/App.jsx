@@ -9,12 +9,10 @@ function App() {
 
   return (
    <>
-   <div className="container mx-auto">
-    hello
-    </div>
-   {/* <Navbar/> */}
-   {/* <Landing/> */}
-   {/* <Clients/> */}
+   
+   <Navbar/>
+   <Landing/>
+   <Clients/>
    </>
   )
 }
