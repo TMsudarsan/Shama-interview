@@ -8,13 +8,13 @@ const Landing = () => {
       style={{ backgroundImage: `url(${bgImg})` }}
     >
       <h1 className="text-white text-[3rem] sm:text-[4rem] lg:text-[7rem] text-center font-bold  pt-10">
-        <span className="font-light">Bank</span> YOURSELF 
+        <span className="font-light">BANK</span> YOURSELF 
       </h1>
       <p className="text-white text-[16px] sm:text-[20px] text-center mt-20 lg:mt-24">
         Instant and reliable payments for businesses and individuals, built on
         Multi-Party Computation (MPC) custody.
       </p>
-      <div className="flex    justify-center items-center gap-4 py-5">
+      <div className=" flex flex-col md:flex-row  justify-center items-center gap-4 py-5">
         <button className="px-8 py-4 rounded-full text-xl bg-[#1c68f4] hover:bg-[#387EFF] text-white">
           Get Started Now
         </button>
