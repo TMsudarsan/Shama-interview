@@ -14,7 +14,7 @@ const Clients = () => {
               </p>
               <span className="  text-8xl  font-light text-white">+</span>
             </div>
-            <p>YEARS OF EXPERTISE IN CRYPTOPROCESSING</p>
+            <p className="text-center md:text-left">YEARS OF EXPERTISE IN CRYPTOPROCESSING</p>
           </div>
           <div className="  lg:border-r border-gray-300 px-4 mt-12">
             <div className="flex items-center  justify-center md:justify-start  gap-3">
@@ -219,7 +219,7 @@ const Clients = () => {
           <div className="md:mt-24 ">
             <div className=" px-10 md:px-18 py-16 border border-white mt-44 mb-8 text-white">
               <p className="text-4xl md:text-5xl ">LUXURY GOODS</p>
-              <ul className="text-left list-disc mt-6 leading-8 text-lg font-light w-[400px]">
+              <ul className="text-left list-disc mt-6 leading-8 text-lg font-light md:w-[400px]">
                 <li>Accept cryptocurrencies for high-value purchases online or in-store</li>
                 <li>Serve a global, privacy-conscious clientele with secure, fast settlement and minimal data sharing</li>
                 <li>Reduce card issues on high-ticket sales - no card chargebacks and fewer international card declines</li>
@@ -227,7 +227,7 @@ const Clients = () => {
             </div>
             <div className="px-10 md:px-18 py-16     bg-[#080E1B] text-white">
               <p className="text-4xl md:text-5xl ">eCOMMERCE</p>
-              <ul className="text-left list-disc mt-6 leading-8 text-lg font-light w-[400px]">
+              <ul className="text-left list-disc mt-6 leading-8 text-lg font-light md:w-[400px]">
                 <li>Easily integrate crypto payments via pre-built plugins</li>
                 <li>Accept borderless payments instantly without banking delays or high FX costs
                 </li>
@@ -239,7 +239,7 @@ const Clients = () => {
           <div className="">
             <div className="px-10 md:px-18 py-16   bg-[#080E1B] mt-44 mb-8 text-white">
               <p className="text-4xl md:text-5xl ">iGAMING</p>
-              <ul className="text-left list-disc mt-6 leading-8 text-lg font-light w-[400px]">
+              <ul className="text-left list-disc mt-6 leading-8 text-lg font-light md:w-[400px]">
                 <li>Reach a global player base with fast crypto deposits and timely payouts</li>
                 <li>Serve a global, privacy-conscious clientele with secure, fast settlement and minimal data sharing</li>
                 <li>Reduce card issues on high-ticket sales - no card chargebacks and fewer international card declines</li>
@@ -247,7 +247,7 @@ const Clients = () => {
             </div>
             <div className="px-10 md:px-18 py-16  border   bg-black text-white">
               <p className="text-4xl md:text-5xl ">FOREX</p>
-              <ul className="text-left list-disc mt-6 leading-8 text-lg font-light w-[400px]">
+              <ul className="text-left list-disc mt-6 leading-8 text-lg font-light md:w-[400px]">
                 <li>Enable fast, borderless deposits and withdrawals for traders worldwide</li>
                 <li>Serve a global, privacy-conscious clientele with secure, fast settlement and minimal data sharing</li>
                 <li>Reduce card issues on high-ticket sales - no card chargebacks and fewer international card declines</li>
